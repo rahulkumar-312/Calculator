@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&family=Ysabeau+Infant:wght@300;500&display=swap');
+
+body{
+    font-family: "Ysabeau Infant";
+    background-color: rgb(26, 16, 16);
+
+}
+
+
+.container{
+    background-color: rgb(26, 16, 16);
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.background{
+    background-color: #ADEFD1;
+    height: 80vh;
+    width: 30vw;
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+    border-style: none;
+}
+
+input{
+    width: 99%;
+    max-width: 30vw;
+    height: 10vh;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #ADEFD1;
+    font-size: 30px;
+    
+}
+
+.keywords{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 2px;
+    column-gap: 2px;
+    row-gap: 5px;
+}
+
+button{
+    height: 90px;
+    width: 80px;
+    font-size: 25px;
+    border-radius: 80%;
+    border-style: none;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #00203F;
+    color: #ADEFD1;
+}
+
